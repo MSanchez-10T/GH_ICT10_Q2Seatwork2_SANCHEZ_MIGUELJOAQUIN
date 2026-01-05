@@ -36,10 +36,12 @@ def student_information(e):
     display(f'PE:{gr6} ', target='output1')
     display(f'{Last_Name} {First_Name}', target='output1')
     display(f'Your GWA is {gwa}', target='output1')
+    #  Displaying PASS/FAIL
     if gwa >= 75 : 
         display(f'PASS', target='output1')
     else: 
         display(f'FAIL', target='output1')
+
 
 
 
